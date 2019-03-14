@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookOneDriveGraphAddIn", "OutlookOneDriveGraphAddIn\OutlookOneDriveGraphAddIn.csproj", "{8C7D59F2-570D-4C30-9412-02B6F89CF759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookOneDriveGraphAddInWeb", "OutlookOneDriveGraphAddInWeb\OutlookOneDriveGraphAddInWeb.csproj", "{D885A1AA-0925-493B-A3FB-03790C8E9DC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C7D59F2-570D-4C30-9412-02B6F89CF759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7D59F2-570D-4C30-9412-02B6F89CF759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7D59F2-570D-4C30-9412-02B6F89CF759}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8C7D59F2-570D-4C30-9412-02B6F89CF759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7D59F2-570D-4C30-9412-02B6F89CF759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7D59F2-570D-4C30-9412-02B6F89CF759}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D885A1AA-0925-493B-A3FB-03790C8E9DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D885A1AA-0925-493B-A3FB-03790C8E9DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D885A1AA-0925-493B-A3FB-03790C8E9DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D885A1AA-0925-493B-A3FB-03790C8E9DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A08DFF15-1112-46A1-A834-83D9523C6CF2}
+	EndGlobalSection
+EndGlobal
