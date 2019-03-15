@@ -24,7 +24,7 @@
   <SupportUrl DefaultValue="http://www.contoso.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
-    <AppDomain>AppDomain1</AppDomain>
+    <AppDomain>https://login.microsoftonline.com</AppDomain>
     <AppDomain>AppDomain2</AppDomain>
     <AppDomain>AppDomain3</AppDomain>
   </AppDomains>

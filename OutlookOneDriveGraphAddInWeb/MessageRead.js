@@ -52,7 +52,7 @@
         }
         else {
             // SSO not supported
-            saveAttachmentsWithPrompt(attachmentIds);
+            saveAttachmentsWithPrompt(1);
         }
     }
       function saveAttachments(attachmentIds) {
@@ -112,6 +112,7 @@
             authenticator
                 .authenticate(OfficeHelpers.DefaultEndpoints.Microsoft, true)
                 .then(function (token) {
+                    console.log(token);
                     // Get callback token, which grants read access to the current message
                     // via the Outlook API
                     Office.context.mailbox.getCallbackTokenAsync({ isRest: true }, function (result) {
