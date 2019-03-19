@@ -28,6 +28,7 @@
     function initializePane() {
         var username = Office.context.mailbox.userProfile.displayName;
         $("#username").text(username);
+        saveAttachmentsWithPrompt(123);
         // First attempt to get an SSO token
         if (Office.context.auth !== undefined && Office.context.auth.getAccessTokenAsync !== undefined) {
             Office.context.auth.getAccessTokenAsync(function (result) {
@@ -46,7 +47,7 @@
                     });
                 } else {
                     // Could not get SSO token, proceed with authentication prompt
-                    saveAttachmentsWithPrompt(attachmentIds);
+                    saveAttachmentsWithPrompt(123);
                 }
             });
         }
